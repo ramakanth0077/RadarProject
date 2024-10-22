@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_01</description>
+   <name>TC-01_radarHomepageValidation</name>
+   <tag>@sanityTest</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>424b46f0-b085-4f5b-bfb8-eb1acf786956</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SanitySuite,Chrome 129.0.0.0,,,22-10-2024 17:18:19,22-10-2024 17:18:33,14.079s,PASSED
+,,,,,,,
+Test Cases/TC-01_radarHomepageValidation,Chrome 129.0.0.0,TC_01,@sanityTest,22-10-2024 17:18:20,22-10-2024 17:18:33,13.718s,PASSED
+radar = new radarHomepage.RadarHomePage(),Chrome 129.0.0.0,,,22-10-2024 17:18:20,22-10-2024 17:18:20,0.041s,PASSED
+url = URL,Chrome 129.0.0.0,,,22-10-2024 17:18:20,22-10-2024 17:18:21,0.315s,PASSED
+openBrowser(url),Chrome 129.0.0.0,Launch the browser and set the URL,,22-10-2024 17:18:21,22-10-2024 17:18:29,7.966s,PASSED
+assert radar.verifyRadarModel(),Chrome 129.0.0.0,Validate the header,,22-10-2024 17:18:29,22-10-2024 17:18:33,4.150s,PASSED
+radar.browserClose(),Chrome 129.0.0.0,Close the browser,,22-10-2024 17:18:33,22-10-2024 17:18:33,0.585s,PASSED

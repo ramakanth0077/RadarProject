@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SanitySuite" time="14.079" tests="1" failures="0" errors="0">
+   <testsuite name="SanitySuite" tests="1" failures="0" errors="0" time="14.079" skipped="0" timestamp="22-10-2024T17:18:19" hostname="Ramakanth - DESKTOP-JJT3JND" id="Test Suites/SanitySuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Ramakanth\\Katalon Studio\\RadarBox\\Reports\\20241022_171809\\SanitySuite\\20241022_171809"/>
+         <property name="logFiles" value="C:\\Users\\Ramakanth\\Katalon Studio\\RadarBox\\Reports\\20241022_171809\\SanitySuite\\20241022_171809\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ramakanth - DESKTOP-JJT3JND"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="69ddd12760596a9528ef859fbbeebf96"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-01_radarHomepageValidation" time="13.718" classname="Test Cases/TC-01_radarHomepageValidation" status="PASSED">
+         <system-out><![CDATA[22-10-2024T17:18:20 - [TEST_CASE][PASSED] - Test Cases/TC-01_radarHomepageValidation: Test Cases/TC-01_radarHomepageValidation
+
+22-10-2024T17:18:20 - [TEST_STEP][PASSED] - radar = new radarHomepage.RadarHomePage(): null
+
+22-10-2024T17:18:20 - [TEST_STEP][PASSED] - url = URL: null
+
+22-10-2024T17:18:21 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://www.radarbox.com/'
+
+22-10-2024T17:18:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-10-2024T17:18:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-10-2024T17:18:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.radarbox.com/'
+
+22-10-2024T17:18:29 - [TEST_STEP][PASSED] - assert radar.verifyRadarModel(): Object 'Object Repository/RadarHeaderTitle' is present
+
+22-10-2024T17:18:29 - [MESSAGE][INFO] - Radar modal Verification
+
+22-10-2024T17:18:33 - [MESSAGE][PASSED] - Object 'Object Repository/RadarHeaderTitle' is present
+
+22-10-2024T17:18:33 - [TEST_STEP][PASSED] - radar.browserClose(): Browser is closed
+
+22-10-2024T17:18:33 - [MESSAGE][INFO] - Browser close
+
+22-10-2024T17:18:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-10-2024T17:18:19 - [TEST_SUITE][PASSED] - SanitySuite: Test Cases/TC-01_radarHomepageValidation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
